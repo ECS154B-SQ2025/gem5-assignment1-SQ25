@@ -39,7 +39,7 @@ You should note that this assignment requires you to use CPUs that use the RISC-
 
 The iron law for performance is used to describe the performance relationship between the number of instructions in a program, the number of cycles per instruction, and the time per cycle. The formula below describes this relationship:
 
-$ \frac{Time}{Program} = \frac{Instructions}{Program} \times \frac{ClockCycles}{Instruction} \times \frac{Time}{ClockCycles}$
+$ \frac{Time}{Program} = \frac{Instructions}{Program} \times \frac{ClockCycles}{Instruction} \times \frac{Time}{ClockCycles} $
 
 Hopefully this formula is fairly intuitive, but to give a quick explanation this formula says that the Time to run a program is based on the number of instructions in that program times the number of clock cycles per instruction times the time per clock cycle. 
 
